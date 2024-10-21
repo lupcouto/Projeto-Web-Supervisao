@@ -1,0 +1,198 @@
+body {
+    padding: 0 2em;
+    background-color: #eeeeee;
+}
+
+@font-face {
+    font-family: descricao;
+    src: url(MADECARVINGPersonalUse-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: nomeCelula;
+    src: url(MADECARVINGPersonalUse-Bold.otf);
+}
+
+header img {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    left: 30px;
+    top: -30px;
+}
+
+header a {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+header {
+    background-color: #0d5356;
+    height: 20%;
+}
+
+.containerMenu {
+    width: 500px;
+    height: 30px;
+    position: relative;
+    top: -130px;
+    left: 395px;
+    text-align: center;
+    font-family: nomeCelula;
+}
+
+
+.imgSupervisao {
+    width: 1269px;
+    height: 360px;
+    object-fit: cover;
+    object-position: top;
+    margin-top: 20px;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    background-color: #0d5356;
+    color: #ffffff;
+    font-size: 34px;
+    margin: 0%;
+    font-family: nomeCelula;
+}
+
+.descricaoSupervisao {
+    padding: 35px;
+    margin: 0 auto;
+    background-color: #eeeeee;
+    font-family: descricao;
+}
+
+.husly , .zora , .huna {
+    padding: 35px;
+    margin: 0 auto;
+    background-color: #eeeeee;
+}
+
+.imgHusly , .imgZora , .imgHuna {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    top: -3px;
+}
+
+.tituloHusly , .tituloZora , .tituloHuna {
+    position: relative;
+    left: 30px;
+    top: -15px;
+    margin: 0;
+    font-size: 20px;
+    font-family: nomeCelula;
+}
+
+.descricaoHusly , .descricaoZora , .descricaoHuna {
+    width: 1100px;
+    position: relative;
+    left: 30px;
+    top: -25px;
+    font-family: descricao;
+    text-align: justify;
+}
+
+.vathys , .yves {
+    padding: 35px;
+    margin: 0 auto;
+    background-color: #0d5356
+}
+
+.imgVathys , .imgYves {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: right;
+    position: relative;
+    top: 0px;
+}
+
+.tituloVathys , .tituloYves {
+    position: relative;
+    left: 0px;
+    top: -15px;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    font-family: nomeCelula;
+}
+
+.descricaoVathys , .descricaoYves {
+    width: 1100px;
+    position: relative;
+    right: 0px;
+    color: white;
+    top: -25px;
+    font-family: descricao;
+    text-align: justify;
+}
+
+.gabriela , .rafaela , .luisa , .crys , .isis {
+    margin-top: 40px;
+    margin: 30px;
+    border-radius: 4%;
+    width: 300px;
+    height: 400px;
+    background-color: #0d5356;
+}
+
+.container1 , .container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imgGabi , .imgRafa , .imgLuisa , .imgCrys , .imgIsis {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 4% 4% 0 0;
+}
+
+.tituloGabi , .tituloRafa , .tituloLuisa , .tituloCrys , .tituloIsis {
+    text-align: center;
+    position: relative;
+    top: -10px;
+    color: white;
+    font-family: nomeCelula;
+}
+
+.celulaGabi , .celulaRafa , .celulaLuisa , .celulaCrys , .celulaIsis {
+    text-align: center;
+    position: relative;
+    top: -30px;
+    color: white;
+    font-family: descricao;
+}
+
+.container {
+    display: flex;
+    background-color: #0d5356;
+    color: white;
+    height: 100px;
+    justify-content: space-evenly;
+}
+
+.redesSociais {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.icone {
+    width: 50px;
+    height: 50px;
+    margin: 10px 40px; 
+}

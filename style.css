@@ -18,7 +18,7 @@ header img {
     height: 180px;
     position: relative;
     left: 30px;
-    top: -30px;
+    top: 0%;
 }
 
 header a {
@@ -38,7 +38,7 @@ header {
     width: 500px;
     height: 30px;
     position: relative;
-    top: -130px;
+    top: -100px;
     left: 395px;
     text-align: center;
     font-family: nomeCelula;

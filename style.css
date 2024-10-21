@@ -46,7 +46,7 @@ header {
 
 
 .imgSupervisao {
-    width: 1269px;
+    width: 100%;
     height: 360px;
     object-fit: cover;
     object-position: top;
